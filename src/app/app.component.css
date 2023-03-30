@@ -1,0 +1,24 @@
+.toolbar{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: relative;
+    animation: animacao-caixa  5s 1s infinite alternate;
+}
+
+@keyframes animacao-caixa{
+    from{ /*Inicio*/
+        background: #009670; 
+        border-radius: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    to{ /*Final*/
+        background: #000000;
+        border-radius: 200px;
+        left: 200px;
+        right: 200px;
+
+    }
+}
